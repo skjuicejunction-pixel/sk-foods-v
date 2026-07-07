@@ -8,17 +8,18 @@ export default function Footer() {
         <div className="grid md:grid-cols-12 gap-10">
 
           {/* Company */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-6">
 
             <div className="flex items-center gap-4 mb-5">
 
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-yellow-400 bg-white">
                 <Image
-                  src="/About.png"
+                  src="/about.jpg"
                   alt="SK Foods"
                   width={64}
                   height={64}
                   className="w-full h-full object-cover"
+                  priority
                 />
               </div>
 
@@ -37,7 +38,7 @@ export default function Footer() {
 
             </div>
 
-            <p className="text-green-100 leading-8">
+            <p className="text-green-100 leading-8 max-w-xl">
               SK Foods provides premium Corporate Catering,
               Pantry Management, Tuck Shop Services,
               Corporate Cafeteria, Fresh Juices,
@@ -58,60 +59,41 @@ export default function Footer() {
             <ul className="space-y-3 text-green-100">
 
               <li>
-                <a href="#">Home</a>
+                <a href="#" className="hover:text-yellow-300 transition">
+                  Home
+                </a>
               </li>
 
               <li>
-                <a href="#about">About Us</a>
+                <a href="#about" className="hover:text-yellow-300 transition">
+                  About Us
+                </a>
               </li>
 
               <li>
-                <a href="#services">Services</a>
+                <a href="#services" className="hover:text-yellow-300 transition">
+                  Services
+                </a>
               </li>
 
               <li>
-                <a href="#gallery">Gallery</a>
+                <a href="#gallery" className="hover:text-yellow-300 transition">
+                  Gallery
+                </a>
               </li>
 
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" className="hover:text-yellow-300 transition">
+                  Contact
+                </a>
               </li>
-
-            </ul>
-
-          </div>
-
-          {/* Services */}
-          <div className="md:col-span-3">
-
-            <h3 className="text-xl font-bold text-yellow-400 mb-5">
-              Our Services
-            </h3>
-
-            <ul className="space-y-3 text-green-100">
-
-              <li>Corporate Catering</li>
-
-              <li>Pantry Management</li>
-
-              <li>Tuck Shop Services</li>
-
-              <li>Corporate Cafeteria</li>
-
-              <li>Fresh Juices</li>
-
-              <li>Healthy Snacks</li>
-
-              <li>Bakery & Pastries</li>
-
-              <li>Bulk Orders</li>
 
             </ul>
 
           </div>
 
           {/* Contact */}
-          <div className="md:col-span-3">
+          <div className="md:col-span-4">
 
             <h3 className="text-xl font-bold text-yellow-400 mb-5">
               Contact Us
@@ -128,23 +110,39 @@ export default function Footer() {
               </p>
 
               <p>
-                📞 <a href="tel:+919603022970">+91 96030 22970</a>
+                📞{" "}
+                <a
+                  href="tel:+919603022970"
+                  className="hover:text-yellow-300 transition"
+                >
+                  +91 96030 22970
+                </a>
               </p>
 
               <p>
-                📞 <a href="tel:+919606117074">+91 96061 17074</a>
+                📞{" "}
+                <a
+                  href="tel:+919606117074"
+                  className="hover:text-yellow-300 transition"
+                >
+                  +91 96061 17074
+                </a>
               </p>
 
               <p>
-                📧 <a href="mailto:skjuicejunction@gmail.com">
+                📧{" "}
+                <a
+                  href="mailto:skjuicejunction@gmail.com"
+                  className="hover:text-yellow-300 transition"
+                >
                   skjuicejunction@gmail.com
                 </a>
               </p>
 
               <p>
-                🕒 Monday - Sunday
+                🕒 Monday – Sunday
                 <br />
-                8:00 AM - 8:00 PM
+                8:00 AM – 8:00 PM
               </p>
 
             </div>
