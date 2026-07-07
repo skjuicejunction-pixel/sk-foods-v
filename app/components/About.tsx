@@ -56,28 +56,19 @@ export default function About() {
               Event Catering,
               Birthday Celebrations and customized food solutions.
             </p>
+            {/* Company Commitment */}
+            <div className="border-l-4 border-yellow-400 pl-6 py-2">
 
-            <p className="text-gray-600 leading-8 mb-8">
+              <h3 className="text-2xl font-bold text-green-700 mb-3">
+                Our future plans
+              </h3>
+
+              <p className="text-gray-700 leading-8 italic">
               As part of our expansion, SK Foods is introducing
               branded food products including Homemade Pickles,
               Andhra Podis, Special Spice Powders and E-commerce
               food products to bring authentic flavours directly
               to every home.
-            </p>
-
-            {/* Company Commitment */}
-            <div className="border-l-4 border-yellow-400 pl-6 py-2">
-
-              <h3 className="text-2xl font-bold text-green-700 mb-3">
-                Our Commitment
-              </h3>
-
-              <p className="text-gray-700 leading-8 italic">
-                "At SK Foods, we are committed to delivering
-                hygienic, high-quality and customized food solutions
-                that exceed client expectations. We strive to build
-                long-term partnerships through exceptional service,
-                consistency and trust."
               </p>
 
             </div>
