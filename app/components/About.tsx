@@ -39,8 +39,8 @@ export default function About() {
               Educational Institutions and Events across
               <span className="font-semibold text-green-700">
                 {" "}Bengaluru, Hyderabad
-              </span>
-              {" "}and
+              </span>{" "}
+              and
               <span className="font-semibold text-green-700">
                 {" "}Chennai.
               </span>
@@ -64,26 +64,26 @@ export default function About() {
         </div>
 
         {/* Vision Section */}
-        <div className="mt-16 bg-green-50 rounded-3xl shadow-lg p-8 md:p-10 border-l-4 border-yellow-400">
+        <div className="mt-12 bg-green-50 rounded-2xl shadow-md p-8 border-l-4 border-yellow-400">
 
-          <h3 className="text-3xl font-bold text-green-700 mb-5">
+          <h3 className="text-2xl font-bold text-green-700 mb-4">
             Our Vision
           </h3>
 
-          <p className="text-gray-700 text-lg leading-9">
+          <p className="text-gray-700 text-base leading-7 mb-4">
             Our vision is to become one of India's most trusted Corporate
             Catering & Food Solution brands by delivering exceptional
             quality, consistency and innovation.
           </p>
 
-          <p className="text-gray-700 text-lg leading-9 mt-5">
-            As part of our long-term growth, SK Foods is expanding into
-            premium branded food products including Homemade Pickles,
-            Andhra Podis, Special Spice Powders and authentic Indian food
-            products. We are committed to bringing traditional flavours,
-            hygienic preparation and trusted quality to homes, offices and
-            businesses across India while continuously raising the standards
-            of corporate catering excellence.
+          <p className="text-gray-700 text-base leading-7">
+            As part of our growth, SK Foods is expanding into premium
+            branded food products including Homemade Pickles,
+            Andhra Podis, Special Spice Powders and authentic Indian
+            food products. We are committed to bringing traditional
+            flavours, hygienic preparation and trusted quality to homes,
+            offices and businesses across India while continuously
+            raising the standards of corporate catering excellence.
           </p>
 
         </div>
