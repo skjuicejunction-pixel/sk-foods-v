@@ -18,13 +18,12 @@ export default function Footer() {
                   alt="SK Foods"
                   width={64}
                   height={64}
-                  className="w-full h-full object-cover"
                   priority
+                  className="w-full h-full object-cover"
                 />
               </div>
 
               <div>
-
                 <h2 className="text-4xl font-extrabold whitespace-nowrap">
                   <span className="text-yellow-400">SK</span>{" "}
                   <span className="text-white">Foods</span>
@@ -33,19 +32,33 @@ export default function Footer() {
                 <p className="text-yellow-300 text-sm tracking-wide">
                   Corporate Catering & Food Solutions
                 </p>
-
               </div>
 
             </div>
 
-            <p className="text-green-100 leading-8 max-w-xl">
-              SK Foods provides premium Corporate Catering,
-              Pantry Management, Tuck Shop Services,
-              Corporate Cafeteria, Fresh Juices,
-              Healthy Snacks, Bakery Products,
-              Event Catering and Bulk Food Orders across
-              Bengaluru, Hyderabad and Chennai.
-            </p>
+            <div className="space-y-5">
+
+              <p className="text-xl italic text-yellow-300 leading-8">
+                "Fresh Food. Trusted Service. Lasting Partnerships."
+              </p>
+
+              <p className="text-green-100 leading-8 max-w-xl">
+                We believe every meal should inspire trust, quality and
+                satisfaction. SK Foods delivers hygienic, customized and
+                reliable catering solutions that help organizations create
+                exceptional workplace dining experiences.
+              </p>
+
+              <a
+                href="https://www.linkedin.com/in/bathala-kodanda-reddy-5215652b1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-yellow-300 hover:text-yellow-200 font-semibold transition"
+              >
+                💼 Follow us on LinkedIn
+              </a>
+
+            </div>
 
           </div>
 
@@ -158,12 +171,11 @@ export default function Footer() {
           <p className="text-green-200">
             © 2026
             <span className="text-yellow-400 font-bold"> SK</span>
-            <span className="text-white font-bold"> Foods</span>.
-            All Rights Reserved.
+            <span className="text-white font-bold"> Foods</span>. All Rights Reserved.
           </p>
 
           <p className="text-yellow-300 text-center">
-            FSSAI Licensed • GST Registered • Trusted Corporate Catering Partner
+            ⭐ FSSAI Licensed • GST Registered • Trusted Corporate Catering Partner
           </p>
 
         </div>
