@@ -5,7 +5,8 @@ export default function About() {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        {/* Top Section */}
+        <div className="grid lg:grid-cols-2 gap-14 items-center">
 
           {/* Left Image */}
           <div>
@@ -13,16 +14,16 @@ export default function About() {
               src="/about.png"
               alt="SK Foods Corporate Catering"
               width={650}
-              height={650}
+              height={500}
               priority
               className="w-full rounded-3xl shadow-2xl object-cover"
             />
           </div>
 
-          {/* Right Side */}
+          {/* Right Content */}
           <div>
 
-            <p className="text-yellow-500 uppercase tracking-[4px] font-semibold mb-2">
+            <p className="text-yellow-500 uppercase tracking-[4px] font-semibold mb-3">
               ABOUT SK FOODS
             </p>
 
@@ -31,11 +32,10 @@ export default function About() {
               & Corporate Catering Solutions
             </h2>
 
-            <p className="text-lg text-gray-700 leading-8 mb-5">
-              SK Foods is a trusted Corporate Catering &
-              Workplace Food Solutions company delivering
-              fresh, hygienic and delicious meals for
-              Corporate Offices, IT Parks, Business Parks,
+            <p className="text-lg text-gray-700 leading-8 mb-6">
+              SK Foods is a trusted Corporate Catering & Workplace Food
+              Solutions company delivering fresh, hygienic and delicious
+              meals for Corporate Offices, IT Parks, Business Parks,
               Educational Institutions and Events across
               <span className="font-semibold text-green-700">
                 {" "}Bengaluru, Hyderabad
@@ -46,38 +46,42 @@ export default function About() {
               </span>
             </p>
 
-            <p className="text-gray-600 leading-8 mb-8">
+            <p className="text-gray-600 leading-8">
               We specialize in Corporate Catering,
               Pantry Management, Corporate Cafeterias,
               Tuck Shop Services, Fresh Juices,
               Healthy Snacks, Bakery Products,
-              Event Catering, Birthday Celebrations
-              and customized food solutions tailored
-              to every client's requirements.
+              Event Catering, Birthday Celebrations and
+              customized food solutions tailored to every
+              client's requirements.
             </p>
 
-            {/* Vision */}
-            <div className="bg-green-50 border-l-4 border-yellow-400 rounded-2xl p-6 shadow-md">
-
-              <h3 className="text-2xl font-bold text-green-700 mb-4">
-                Our Vision
-              </h3>
-
-              <p className="text-gray-700 leading-8">
-                Our vision is to become one of India's most trusted
-                Corporate Catering & Food Solution brands by
-                delivering exceptional quality, consistency and
-                innovation. As part of our growth, SK Foods is
-                expanding into premium branded food products
-                including Homemade Pickles, Andhra Podis,
-                Special Spice Powders and authentic Indian food
-                products, bringing traditional flavours and trusted
-                quality to homes across India.
-              </p>
-
-            </div>
-
           </div>
+
+        </div>
+
+        {/* Our Vision - Full Width */}
+        <div className="mt-16 bg-green-50 rounded-3xl shadow-lg p-10 border-l-4 border-yellow-400">
+
+          <h3 className="text-3xl font-bold text-green-700 mb-5">
+            Our Vision
+          </h3>
+
+          <p className="text-gray-700 leading-9 text-lg">
+            Our vision is to become one of India's most trusted Corporate
+            Catering & Food Solution brands by delivering exceptional
+            quality, consistency and innovation.
+
+            <br /><br />
+
+            As part of our growth, SK Foods is expanding into premium
+            branded food products including Homemade Pickles, Andhra
+            Podis, Special Spice Powders and authentic Indian food
+            products. We are committed to bringing traditional flavours,
+            hygienic preparation and trusted quality to homes, offices
+            and businesses across India while continuously raising the
+            standards of corporate catering excellence.
+          </p>
 
         </div>
 
