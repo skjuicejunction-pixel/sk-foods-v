@@ -46,29 +46,27 @@ export default function About() {
             </p>
 
             <p className="text-gray-600 leading-8 mb-6">
-              We specialize in Corporate Catering,
-              Pantry Management,
-              Corporate Cafeteria,
-              Tuck Shop Services,
-              Fresh Juices,
-              Healthy Snacks,
-              Bakery Products,
-              Event Catering,
+              We specialize in Corporate Catering, Pantry Management,
+              Corporate Cafeteria, Tuck Shop Services, Fresh Juices,
+              Healthy Snacks, Bakery Products, Event Catering,
               Birthday Celebrations and customized food solutions.
             </p>
-            {/* Company Commitment */}
-            <div className="border-l-4 border-yellow-400 pl-6 py-2">
 
-              <h3 className="text-2xl font-bold text-green-700 mb-3">
-                Our future plans
+            {/* Our Vision */}
+            <div className="mt-8 bg-green-50 border-l-4 border-yellow-400 rounded-xl p-6 shadow-sm">
+
+              <h3 className="text-2xl font-bold text-green-700 mb-4">
+                Our Vision
               </h3>
 
-              <p className="text-gray-700 leading-8 italic">
-              As part of our expansion, SK Foods is introducing
-              branded food products including Homemade Pickles,
-              Andhra Podis, Special Spice Powders and E-commerce
-              food products to bring authentic flavours directly
-              to every home.
+              <p className="text-gray-700 leading-8">
+                At SK Foods, our vision is to become one of India's most trusted
+                food solution brands by delivering exceptional corporate catering
+                services and introducing premium branded food products.
+                We are expanding into Homemade Pickles, Andhra Podis,
+                Special Spice Powders and other authentic food products,
+                bringing traditional flavours, uncompromising quality and
+                trusted taste to homes and businesses across India.
               </p>
 
             </div>
