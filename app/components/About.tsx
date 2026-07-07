@@ -38,8 +38,8 @@ export default function About() {
               Institutions across
               <span className="font-semibold text-green-700">
                 {" "}Bengaluru, Hyderabad
-              </span>{" "}
-             and
+              </span>
+              {" "}and
               <span className="font-semibold text-green-700">
                 {" "}Chennai.
               </span>
@@ -65,24 +65,20 @@ export default function About() {
               to every home.
             </p>
 
-            {/* Highlights */}
-            <div className="grid grid-cols-2 gap-4">
+            {/* Company Commitment */}
+            <div className="border-l-4 border-yellow-400 pl-6 py-2">
 
-              <div className="bg-green-50 rounded-xl p-4 shadow-md">
-                ✅ Fresh & Hygienic Food
-              </div>
+              <h3 className="text-2xl font-bold text-green-700 mb-3">
+                Our Commitment
+              </h3>
 
-              <div className="bg-green-50 rounded-xl p-4 shadow-md">
-                ✅ Customized Menus
-              </div>
-
-              <div className="bg-green-50 rounded-xl p-4 shadow-md">
-                ✅ Professional Team
-              </div>
-
-              <div className="bg-green-50 rounded-xl p-4 shadow-md">
-                ✅ On-Time Delivery
-              </div>
+              <p className="text-gray-700 leading-8 italic">
+                "At SK Foods, we are committed to delivering
+                hygienic, high-quality and customized food solutions
+                that exceed client expectations. We strive to build
+                long-term partnerships through exceptional service,
+                consistency and trust."
+              </p>
 
             </div>
 
