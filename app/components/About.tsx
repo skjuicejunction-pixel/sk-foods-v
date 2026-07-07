@@ -27,7 +27,7 @@ export default function About() {
               ABOUT SK FOODS
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-green-700 leading-tight mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-green-700 leading-tight mb-6">
               Complete Food <br />
               & Corporate Catering Solutions
             </h2>
@@ -60,7 +60,7 @@ export default function About() {
 
         </div>
 
-        {/* Our Vision - Full Width */}
+        {/* Our Vision */}
         <div className="mt-16 bg-green-50 rounded-3xl shadow-lg p-10 border-l-4 border-yellow-400">
 
           <h3 className="text-3xl font-bold text-green-700 mb-5">
@@ -71,9 +71,8 @@ export default function About() {
             Our vision is to become one of India's most trusted Corporate
             Catering & Food Solution brands by delivering exceptional
             quality, consistency and innovation.
-
-            <br /><br />
-
+            <br />
+            <br />
             As part of our growth, SK Foods is expanding into premium
             branded food products including Homemade Pickles, Andhra
             Podis, Special Spice Powders and authentic Indian food
